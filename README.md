@@ -111,6 +111,6 @@ See our [LICENSE](LICENSE).
 
 ## Support
 
-@riverma
+[@riverma](https://github.com/riverma)
 
 <!-- ☝️ Replace with the key individuals who should be contacted for questions ☝️ -->
