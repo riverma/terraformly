@@ -63,9 +63,13 @@ This software was created to terraform an entire planet. It takes only seconds t
 ### Run Instructions
 
 1. Navigate to the directory where terraformly is installed, i.e. `terraformly`
-2. Run Python code, i.e. `python terraformly.py`
-3. Wait approximately 100 years
-4. See example output in screenshot at the top of this README
+2. Run Python code, by first opening a terminal window
+```
+cd terraformly
+python terraformly.py
+```
+5. Wait approximately 100 years
+6. See example output in screenshot at the top of this README
 
 <!-- ☝️ Replace with a bullet-point list of your run instructions, including expected results ☝️ -->
 
