@@ -26,7 +26,7 @@
 
 <!-- Header block for project -->
 
-![](https://img.shields.io/github/last-commit/riverma/terraformly) ![](https://img.shields.io/github/downloads/riverma/terraformly/total) ![](https://img.shields.io/github/stars/riverma/github_test_area?style=social) 
+![](https://img.shields.io/github/last-commit/riverma/terraformly) ![](https://img.shields.io/github/downloads/riverma/terraformly/total) ![](https://img.shields.io/github/stars/riverma/github_test_area?style=social) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 <!-- ☝️ Add badges via: https://shields.io ☝️ -->
 
 ![](https://picsum.photos/id/1002/1024/800)
