@@ -43,8 +43,8 @@ Our project integrates contributions from many people, and so we'd like to outli
 
 ```mermaid
 flowchart TD
-    repo_proj[(Project Repository)]-->|Fork|repo_fork[(Your Forked Repository)]
-    repo_fork-->|Make your modifications|patch(Your Patch)
+    repo_proj[(Our Repository)]-->|Fork|repo_fork[(Your Forked Repository)]
+    repo_fork-->|Generate|patch(Your Patch)
     patch-->|Submit|pr(Pull Request)
     pr==>|Approved|repo_proj
     pr-->|Changes Requested|repo_fork
