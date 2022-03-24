@@ -201,12 +201,24 @@ Take a look at our pull requests tracking system https://github.com/riverma/terr
 
 ### 💻  Code
 
+TBD
+
 ### 📖 Documentation 
+
+TBD
 
 ### 📷 Media
 
+TBD
+
 ### ❓ Questions
+
+TBD
 
 ### 🎨 Design
 
+TBD
+
 ### 🎟️ Meetups
+
+TBD
