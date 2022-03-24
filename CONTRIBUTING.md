@@ -95,9 +95,7 @@ Please make sure to provide a meaningful text description to your pull requests,
 - Run tests via ...
 ```
 
- 
 **Working on your first Pull Request?** See guide: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
-
 
 ### Reviewing your Pull Request
 
@@ -141,7 +139,7 @@ Take a look at our issue tracking manager, and filter by `good first issue` for 
 
 #### Suggesting New Issue Labels
 
-Labels witin an issue tracking manager are a great way to quickly sort through tickets. The project may not yet have labels to cover the full variety of issue tickets. Take a look through our list of issues, and if you notice a set of issue tickets that seem similar but are not categorized with an existing label, go ahead submit a request within one of the issues you've looked at with the following text:
+Labels within an issue tracking manager are a great way to quickly sort through tickets. The project may not yet have labels to cover the full variety of issue tickets. Take a look through our list of issues, and if you notice a set of issue tickets that seem similar but are not categorized with an existing label, go ahead submit a request within one of the issues you've looked at with the following text:
 
 ```
 I've noticed several other issues that are of the same category as this issue. Shall we make a new label for these types of issues?
