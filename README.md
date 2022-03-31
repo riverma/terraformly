@@ -75,20 +75,7 @@ python terraformly.py
 
 ## Changelog
 
-See our [releases](https://github.com/riverma/terraformly/releases) page for details, but a summary is listed below:
-
-* 0.2.1
-    * CHANGE: Fixed dead links in docs
-* 0.2.0
-    * CHANGE: Deprecated terraform towers in place of floating orbital beams
-    * ADD: Floating orbital terraform beams
-* 0.1.1
-    * FIX: bug where terraformly sometimes creates a planet-sized black hole that destroy's everything in its path
-* 0.1.0
-    * Inital working release
-    * CHANGE: Rename `terraform()` to `terraformly()` to make it all Web 3.0-ish
-* 0.0.1
-    * ADD: terraform towers and water gasifier support added
+See [CHANGELOG](https://github.com/riverma/terraformly/blob/main/CHANGELOG.md) for details.
 
 <!-- ☝️ Replace with a bullet-point list of your release notes like above, or just link to your releases page ☝️ -->
 
