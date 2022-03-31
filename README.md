@@ -96,9 +96,7 @@ python terraformly.py --label Luna --planet-type moon --surface-area 38 --surfac
 
 Expected results:
 ```
-Working...
-(381 years later)
-Done.
+Sorry. Not enough water present for terraforming.
 ```
 
 <!-- ☝️ Replace with a bullet-point list of your usage examples, including screenshots if possible ☝️ -->
