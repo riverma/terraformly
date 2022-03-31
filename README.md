@@ -73,6 +73,36 @@ python terraformly.py
 
 <!-- ☝️ Replace with a bullet-point list of your run instructions, including expected results ☝️ -->
 
+### Usage Examples
+
+#### Terraforming Mars
+
+```
+python terraformly.py --label Mars --planet-type terrestrial --surface-area 55.91 --surface-area-units million-sq-miles
+```
+
+Expected results:
+```
+Working...
+(192 years later)
+Done.
+```
+
+#### Terraforming Luna
+
+```
+python terraformly.py --label Luna --planet-type moon --surface-area 38 --surface-area-units million-sq-km
+```
+
+Expected results:
+```
+Working...
+(381 years later)
+Done.
+```
+
+<!-- ☝️ Replace with a bullet-point list of your usage examples, including screenshots if possible ☝️ -->
+
 ## Changelog
 
 See [CHANGELOG](https://github.com/riverma/terraformly/blob/main/CHANGELOG.md) for details.
