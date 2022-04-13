@@ -35,7 +35,7 @@
 This software was created to terraform an entire planet. It takes only seconds to launch. It's intended to be used by heads of state only. 
 <!-- ☝️ Replace with a more detailed description of your repository, including why it was made and whom its intended for.  ☝️ -->
 
-[Website]() | [Docs]() | [Wiki](https://github.com/riverma/terraformly/wiki) | [Discussion Board]() | [Issue Tracker](https://github.com/riverma/terraformly/issues)
+[Website]() | [Wiki](https://github.com/riverma/terraformly/wiki) | [Discussion Board]() | [Issue Tracker](https://github.com/riverma/terraformly/issues)
 
 ## Features
 
