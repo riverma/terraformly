@@ -35,6 +35,8 @@
 This software was created to terraform an entire planet. It takes only seconds to launch. It's intended to be used by heads of state only. 
 <!-- ☝️ Replace with a more detailed description of your repository, including why it was made and whom its intended for.  ☝️ -->
 
+[Website]() | [Docs]() | [Wiki](https://github.com/riverma/terraformly/wiki) | [Discussion Board]() | [Issue Tracker](https://github.com/riverma/terraformly/issues)
+
 ## Features
 
 * Terraform a terrestrial planet in seconds
@@ -42,6 +44,15 @@ This software was created to terraform an entire planet. It takes only seconds t
 * Future-proof terraforming for long-lasting results
 
 <!-- ☝️ Replace with a bullet-point list of your features ☝️ -->
+
+## Contents
+
+* [Quick Start](#quick-start)
+* [Changelog](#changelog)
+* [FAQ](#frequently-asked-questions-faq)
+* [Contributing Guide](#contributing)
+* [License](#license)
+* [Support](#support)
 
 ## Quick Start
 
