@@ -56,6 +56,8 @@ This software was created to terraform an entire planet. It takes only seconds t
 
 ## Quick Start
 
+This guide provides a quick way to get started with our project. Please see our [docs]() for a more comprehensive overview.
+
 ### Requirements
 
 * A Mars or Earth sized terrestrial planet
