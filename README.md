@@ -1,47 +1,39 @@
-<!-- ********************************************************************************************* -->
-<!-- NOTE: this is NOT a real project, this is a template to be used for your own REAMDE.md files! -->
-<!-- ********************************************************************************************* -->
-
+```html
 <!-- Header block for project -->
 <hr>
 
 <div align="center">
 
-<span style="display:block;text-align:center">
-  
-  ![](https://www.nasa.gov/sites/default/files/styles/side_image/public/thumbnails/image/nasa-logo-web-rgb.png?itok=uDhKSTb1)
-  <!-- ☝️ Replace with your logo (if applicable) ☝️ -->
-  
-</span>
+<!-- ![INSERT YOUR LOGO IMAGE HERE (IF APPLICABLE)] -->
+<!-- ☝️ Replace with your logo (if applicable) via ![](https://uri-to-your-logo-image) ☝️ -->
+<!-- ☝️ If you see logo rendering errors, make sure you're not using indentation, or try an HTML IMG tag -->
 
-  <h1 align="center">Terraformly</h1>
-  <!-- ☝️ Replace with your repo name ☝️ -->
+<h1 align="center">Terraforming Project</h1>
+<!-- ☝️ Replace with your repo name ☝️ -->
 
 </div>
 
-<pre align="center">
-    A Python package designed to quickly and efficiently terraform a planet.
-</pre>
+<pre align="center">A CLI tool to simulate the planet terraforming process.</pre>
 <!-- ☝️ Replace with a single sentence describing the purpose of your repo / proj ☝️ -->
 
 <!-- Header block for project -->
 
-![](https://img.shields.io/github/last-commit/riverma/terraformly) ![](https://img.shields.io/github/downloads/riverma/terraformly/total) ![](https://img.shields.io/github/stars/riverma/github_test_area?style=social) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
-<!-- ☝️ Add badges via: https://shields.io ☝️ -->
+[![GitHub issues](https://img.shields.io/github/issues/your_org/terraforming_project)](https://github.com/your_org/terraforming_project/issues) [![GitHub forks](https://img.shields.io/github/forks/your_org/terraforming_project)](https://github.com/your_org/terraforming_project/network) [![GitHub stars](https://img.shields.io/github/stars/your_org/terraforming_project)](https://github.com/your_org/terraforming_project/stargazers) [![GitHub license](https://img.shields.io/github/license/your_org/terraforming_project)](https://github.com/your_org/terraforming_project/blob/main/LICENSE) [![SLIM](https://img.shields.io/badge/Best%20Practices%20from-SLIM-blue)](https://nasa-ammos.github.io/slim/)
+<!-- ☝️ Add badges via: https://shields.io e.g. ![](https://img.shields.io/github/your_chosen_action/your_org/your_repo) ☝️ -->
 
-![](https://picsum.photos/id/1002/1024/800)
-<!-- ☝️ Screenshot of your software (if applicable) ☝️ -->
+<!-- ![INSERT SCREENSHOT OF YOUR SOFTWARE, IF APPLICABLE]-->
+<!-- ☝️ Screenshot of your software (if applicable) via ![](https://uri-to-your-screenshot) ☝️ -->
 
-This software was created to terraform an entire planet. It takes only seconds to launch. It's intended to be used by heads of state only. 
+This repository contains a simple command-line interface (CLI) tool designed to simulate the terraforming process of different planetary bodies. This tool was created for educational purposes and is aimed at hobbyists and researchers interested in terraforming science.
+
 <!-- ☝️ Replace with a more detailed description of your repository, including why it was made and whom its intended for.  ☝️ -->
-
-[Website]() | [Wiki](https://github.com/riverma/terraformly/wiki) | [Discussion Board]() | [Issue Tracker](https://github.com/riverma/terraformly/issues)
 
 ## Features
 
-* Terraform a terrestrial planet in seconds
-* Generate logs of terraforming actions completed
-* Future-proof terraforming for long-lasting results
+* Simulates the terraforming process for terrestrial planets and moons
+* Calculates estimated time to terraform based on surface area
+* Outputs a simulated timeline of the terraforming process
+* Customizable inputs for planet types and surface area
 
 <!-- ☝️ Replace with a bullet-point list of your features ☝️ -->
 
@@ -56,93 +48,98 @@ This software was created to terraform an entire planet. It takes only seconds t
 
 ## Quick Start
 
-This guide provides a quick way to get started with our project. Please see our [docs]() for a more comprehensive overview.
+This guide provides a quick way to get started with our project. Please see our [docs](https://github.com/your_org/terraforming_project/wiki) for a more comprehensive overview.
 
 ### Requirements
 
-* A Mars or Earth sized terrestrial planet
-* 1.35e18 metric tonnes of water
-* 3210 gigatonnes of carbon dioxide
+* Python 3.6 or higher
+* argparse package (usually included in standard Python library)
 
-<!-- ☝️ Replace with a bullet-point list of your requirements, including hardware if applicable ☝️ -->
+<!-- ☝️ Replace with a numbered list of your requirements, including hardware if applicable ☝️ -->
 
 ### Setup Instructions
 
-1. Find a planet satisfying the above requirements
-2. Clone terraformly Python package via `git clone git@github.com:riverma/terraformly.git`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your_org/terraforming_project.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd terraforming_project
+   ```
+3. Install any required dependencies (if any):
+   ```bash
+   pip install -r requirements.txt
+   ```
+   (Note: This project does not have additional dependencies beyond standard Python libraries.)
 
-<!-- ☝️ Replace with a bullet-point list of how to set up your software prior to running ☝️ -->
+<!-- ☝️ Replace with a numbered list of how to set up your software prior to running ☝️ -->
 
 ### Run Instructions
 
-1. Navigate to the directory where terraformly is installed, i.e. `terraformly`
-2. Run Python code, by first opening a terminal window
-```
-cd terraformly
-python terraformly.py
-```
-5. Wait approximately 100 years
-6. See example output in screenshot at the top of this README
+1. To run the terraforming simulation, use the command:
+   ```bash
+   python main.py --label "Mars" --planet-type "terrestrial" --surface-area 144.8 --surface-area-units "million-sq-km"
+   ```
 
-<!-- ☝️ Replace with a bullet-point list of your run instructions, including expected results ☝️ -->
+<!-- ☝️ Replace with a numbered list of your run instructions, including expected results ☝️ -->
 
 ### Usage Examples
 
-#### Terraforming Mars
+* Simulate the terraforming of Earth:
+   ```bash
+   python main.py --label "Earth" --planet-type "terrestrial" --surface-area 510.1 --surface-area-units "million-sq-km"
+   ```
 
-```
-python terraformly.py --label Mars --planet-type terrestrial --surface-area 55.91 --surface-area-units million-sq-miles
-```
+<!-- ☝️ Replace with a list of your usage examples, including screenshots if possible, and link to external documentation for details ☝️ -->
 
-Expected results:
-```
-Working...
-(192 years later)
-Done.
-```
+### Build Instructions (if applicable)
 
-#### Terraforming Luna
+N/A
+<!-- ☝️ Replace with a numbered list of your build instructions, including expected results / outputs with optional screenshots ☝️ -->
 
-```
-python terraformly.py --label Luna --planet-type moon --surface-area 38 --surface-area-units million-sq-km
-```
+### Test Instructions (if applicable)
 
-Expected results:
-```
-Sorry. Not enough water present for terraforming.
-```
+1. To run the provided unit tests, use the command:
+   ```bash
+   python -m unittest discover tests
+   ```
 
-<!-- ☝️ Replace with a bullet-point list of your usage examples, including screenshots if possible ☝️ -->
+<!-- ☝️ Replace with a numbered list of your test instructions, including expected results / outputs with optional screenshots ☝️ -->
 
 ## Changelog
 
-See [CHANGELOG](https://github.com/riverma/terraformly/blob/main/CHANGELOG.md) for details.
+See our [CHANGELOG.md](CHANGELOG.md) for a history of our changes.
 
-<!-- ☝️ Replace with a bullet-point list of your release notes like above, or just link to your releases page ☝️ -->
+See our [releases page](https://github.com/your_org/terraforming_project/releases) for our key versioned releases.
+
+<!-- ☝️ Replace with links to your changelog and releases page ☝️ -->
 
 ## Frequently Asked Questions (FAQ)
 
-1. How long does terraformly take to run?
-   - A few seconds to launch, but approximately 100 years for a Mars sized planet. Results vary by terrain and geological conditions.
-2. Does terraformly work on moons without water?
-   - No, as mentioned in the requirements, 1.35e18 metric tonnes of water are required to run terraformly.
+Questions about our project? Please see our [FAQ](https://github.com/your_org/terraforming_project/wiki/FAQ).
 
 <!-- ☝️ Replace with a list of frequently asked questions from your project, or post a link to your FAQ on a discussion board ☝️ -->
 
 ## Contributing
 
-See our [CONTRIBUTING.md](CONTRIBUTING.md) guide.
+Interested in contributing to our project? Please see our: [CONTRIBUTING.md](CONTRIBUTING.md).
 
-<!-- ☝️ Replace with a text describing how people may contribute to your project, or link to your contibution guide directly ☝️ -->
+<!-- ☝️ Replace with a text describing how people may contribute to your project, or link to your contribution guide directly ☝️ -->
+
+For guidance on how to interact with our team, please see our code of conduct located at: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 ## License
 
-See our [LICENSE](LICENSE). 
+See our: [LICENSE](LICENSE)
 
 <!-- ☝️ Replace with the text of your copyright and license, or directly link to your license file ☝️ -->
 
 ## Support
 
-[@riverma](https://github.com/riverma)
+Key points of contact are:
+* [@github-user-1](https://github.com/github-user-1)
+* [@github-user-2](https://github.com/github-user-2)
 
 <!-- ☝️ Replace with the key individuals who should be contacted for questions ☝️ -->
+```
